@@ -36,7 +36,7 @@ class RandomNumbModal(discord.ui.Modal, title="Random Number"):
         self.start_first =  discord.ui.TextInput(
             label = "First Number",
             placeholder = "e.g. 1",
-            equired = True
+            required = True
         )
         self.end_last =  discord.ui.TextInput(
             label = "Last Number",
